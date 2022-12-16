@@ -94,8 +94,13 @@ console.log('The foods are now', foodArray);
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
+foodArray[1] = 'taco';
+console.log('Changed second item,', foodArray);
+
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+
+
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
